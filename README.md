@@ -17,5 +17,5 @@ associated with.
 9) The store pays each merchant in batches, where each batch has a date, paid amount,
 and amount left for the merchant.
 
-● Shipment’s total price will be a derived attribute (derived from the sum of the buying prices of the products in the shipment times their quantities)
-● The batch’s left amount for the merchant will be a derived attribute (derived from the sum of the total prices of the merchant’s shipments minus the paid amounts for the merchant)
+- Shipment’s total price will be a derived attribute (derived from the sum of the buying prices of the products in the shipment times their quantities)
+- The batch’s left amount for the merchant will be a derived attribute (derived from the sum of the total prices of the merchant’s shipments minus the paid amounts for the merchant)
